@@ -1,0 +1,9 @@
+# ----------------------------------------------- #
+# These files are not checked into the repository #
+# ----------------------------------------------- #
+#
+# Ignore all logs
+*.log
+
+# PyCharm
+.idea/

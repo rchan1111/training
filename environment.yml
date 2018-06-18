@@ -1,0 +1,24 @@
+# This file is used in two ways:
+#
+# - To update environment with latest version of packages:
+#   $ conda env update -f environment.yml -n training --prune
+#
+# - To update environment with latest/specific version of python:
+#   $ conda env update -f environment.yml -n training --prune python=3.6.1
+#
+# - To add a new package, add it to this file in alphabetical order, then run:
+#   $ conda env update -f environment.yml -n training --prune
+#
+# - To create a fresh training environment by default:
+#   $ conda env create
+#
+name: training
+dependencies:
+- django
+- flake8
+- numpy
+- pandas
+- pip
+- pylint
+- python
+- xlrd
